@@ -223,6 +223,7 @@ public class ElasticsearchBackend extends AbstractBackendListenerClient {
                 logger.warn(" -- \"debug\": sends request and response details to ElasticSearch. Info only sends the details if the response has an error.");
                 logger.warn(" -- \"info\": should be used in production");
                 logger.warn(" -- \"quiet\": should be used if you don't care to have the details.");
+                logger.warn(" -- \"error\": should be used if you only want the failing samplers sent to ElasticSearch.");
                 break;
         }
 
